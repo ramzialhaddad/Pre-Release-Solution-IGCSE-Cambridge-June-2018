@@ -86,4 +86,6 @@ This was just to help with people finding it a bit hard to understand the code. 
 by Mr. Thornton. This also may be updated, so if you want you can go to my GitHub to find the latest version if you want. If you want any more bits better explained then 
 you can find me I guess or email me or put an issue on GitHub if you want idk you decide.
 
+GitHub: https://github.com/ramzialhaddadtm/Pre-Release-Solution-IGCSE-Cambridge-June-2018
+
 """
