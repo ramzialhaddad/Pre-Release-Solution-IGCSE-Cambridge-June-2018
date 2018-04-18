@@ -34,7 +34,7 @@ for day in range(7): # This only loops for 7 days, 1 week as said in the pre-rel
     dailyLog.clear() # This is ensures that there is only 2 milkings per day
     print("Day "+str(day+1)+" of Milking!") # Alerts the user which day of milking it is, it adds one because arrays and computers count from 0
     while(anotherCow): # This is the variable used from line 14 and allows the loop to actually loop
-        cowCode + input("Enter code of cow to be milked: ") # This line asks the user for the cow code
+        cowCode = input("Enter code of cow to be milked: ") # This line asks the user for the cow code
         while((len(cowCode)!=3) or (cowCode not in cowCodes) or (cowCode.isalpha())): # Same validation as in line 27
             print("Code entered wrong or not our cow!") # Alerts the user that the code was invalid
             cowCode = input("Enter cow code: ") # Re-Prompts the user to enter the code
