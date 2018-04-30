@@ -43,7 +43,7 @@ for day in range(7): # This only loops for 7 days, 1 week as said in the pre-rel
         elif(dailyLog.count(cowCode) == 1): # Otherwise if it has only been milked once
             milk = float(input("How many litres? ")) # Prompts the user to enter the volume collected
             milkYield.append(milk) # Adds the volume of Milk to the milkYield list
-            weeklLog.append(cowCode) # Adds the Cow Code to the weeklyLog list
+            weeklyLog.append(cowCode) # Adds the Cow Code to the weeklyLog list
             dailyLog.append(cowCode) # Adds the Cow Code to the dailyLog list  
         else: # Otherwise if its not 1 or 2 then its 0 milks, so lets fill the first one in
             milk = float(input("How many litres? ")) # Prompts the user for the milk volume
